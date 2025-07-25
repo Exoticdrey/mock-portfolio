@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "DREYE",
+    "description": "A responsive fashion website with scroll animation features.",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "link": "https://exoticdrey.github.io/dreye/"
+  },
+  {
+    "id": 2,
+    "title": "The Drey Effect",
+    "description": "A classy nail tech website built with a booking system.",
+    "tech": ["HTML", "CSS", "JavaScript"],
+    "link": "https://exoticdrey.github.io/the-drey-effect/"
+  },
+  {
+    "id": 3,
+    "title": "DreyCodes",
+    "description": "A personal web developer portfolio.",
+    "tech": ["JavaScript", "HTML/CSS"],
+    "link": "https://exoticdrey.github.io/dreyCodes/"
+  }
+]
