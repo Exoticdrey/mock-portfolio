@@ -7,10 +7,10 @@ export default function HomePage() {
     <main className="min-h-screen bg-white text-gray-900 px-6 py-24 flex items-center justify-center">
       <div className="max-w-4xl mx-auto text-center">
         <h1 className="text-5xl md:text-6xl font-extrabold mb-6 text-purple-700">
-          Hi, I’m Drey 👋🏾
+          Hi, I&apos;m Drey 👋🏾
         </h1>
         <p className="text-lg md:text-xl mb-8 leading-relaxed">
-          I’m a front-end developer who builds modern, clean, responsive websites.
+          I&apos;m a front-end developer who builds modern, clean, responsive websites.
           I love turning ideas into reality with code and design.
         </p>
         <div className="flex justify-center gap-6">
