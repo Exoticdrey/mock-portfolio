@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 Mock Portfolio
 
-## Getting Started
+This is a mock developer portfolio built as part of a test project. It was built using **Next.js 15**, **Tailwind CSS**, and follows modern front-end practices.
 
-First, run the development server:
+## 🔗 Live Demo
+
+👉 [View Live Site](https://mock-portfolio-liard.vercel.app/)
+
+## 📁 Project Structure
+
+/
+├── src/
+│ ├── app/ → App directory (Next.js routing)
+│ │ ├── page.js → Homepage
+│ │ ├── about/ → About page
+│ │ ├── projects/ → Projects page
+│ │ └── contact/ → Contact page
+│ ├── components/ → Reusable UI components like Navbar
+│ ├── data/ → Project data (JSON file)
+├── public/ → Static files
+├── styles/ or globals.css → Global Tailwind styles
+
+
+---
+
+## 🧰 Tech Stack
+
+- **Framework**: [Next.js 15](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Language**: JavaScript (No TypeScript)
+- **Deployment**: [Vercel](https://vercel.com/)
+- **Version Control**: Git + GitHub
+
+---
+
+## 📌 Features
+
+- ⚡️ Clean and responsive UI
+- 🌗 Dark/light friendly (based on browser default)
+- ✅ Uses Next.js `App Router` and `src/` structure
+- 💬 Contact form using API Route (POST)
+- 🧩 Reusable `Navbar` component
+- 🗂 Project data stored in JSON for flexibility
+
+---
+
+## 🚀 Getting Started
+
+Clone the repo and run locally:
 
 ```bash
+git clone https://github.com/Exoticdrey/mock-portfolio.git
+cd mock-portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Contact Form (API Route)
+The contact form uses a simple POST API route under src/app/api/contact/route.js. You can expand this to connect with services like EmailJS or Nodemailer.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🧪 Future Improvements
+Integrate a backend for real-time form submission
 
-## Learn More
+Add animations with Framer Motion
 
-To learn more about Next.js, take a look at the following resources:
+Add testimonials section
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Add downloadable resume
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🙋🏽‍♀️ About Me
+This project was built by Drey as part of a junior full-stack developer assessment. I’m passionate about clean code, elegant UI, and solving real problems with tech.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📜 License
+This project is for educational and assessment purposes.
